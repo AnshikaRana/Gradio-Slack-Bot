@@ -1,0 +1,16 @@
+[project]
+name = "gradio-slack-bot"
+version = "0.1.0"
+description = "Slack bot powered by a Gradio app (IIT Jammu AI/LLM Summer School - Bots & Interfaces)"
+authors = [{ name = "Anshika Rana" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "gradio>=5.0",
+    "gradio_client>=1.0",
+    "slack-bolt~=1.0",
+    "httpx",
+    "python-dotenv",
+]
+
+[tool.uv]
+package = false
